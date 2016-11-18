@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background"
+    android:orientation="horizontal"
+    tools:context="com.example.android.cems.HomePage"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginRight="16dp">
+
+        <Button
+            android:id="@+id/khitij"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Kshitij"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:background="@color/login_background"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:id="@+id/csa"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="CSA"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:background="@color/login_background"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/esa"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ESA"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:background="@color/login_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/virtuosic"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:text="Virtuo\nsic"
+            android:background="@color/login_background"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/mesa"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="MESA"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:background="@color/login_background"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Other"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:background="@color/login_background" />
+
+    </LinearLayout>
+
+</LinearLayout>
